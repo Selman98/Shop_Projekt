@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+header {
+	
+}
+
+header-menu {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 10px;
+	background-color: transparent;
+	padding: 3em;
+	color: grey;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
