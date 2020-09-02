@@ -1,3 +1,4 @@
+<%@page import="beans.StartseiteBean"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -14,7 +15,7 @@
 
 		<!-- HEADER -->
 
-		<jsp:getProperty property="headerAsHtml" name="sb" />
+		
 
 
 		<div class="karte" style='height: 300px; width: 80%;'>
@@ -37,5 +38,6 @@
 		<!-- FOOTER -->
 
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
+		</form>
 </body>
 </html>

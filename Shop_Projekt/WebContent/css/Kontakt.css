@@ -10,9 +10,13 @@ header-menu {
 	width: 100%;
 	text-align: center;
 	font-size: 10px;
-	background-color: transparent;
 	padding: 3em;
 	color: grey;
+	background-color: transparent;
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+	font-size: 20px;
 }
 
 .logo {
@@ -21,4 +25,17 @@ header-menu {
 	display: block;
 	margin-left: auto;
 	margin-right: auto
+}
+.submit {
+	background-color: transparent;
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+	font-size: 20px;
+}
+
+.submit:hover {
+	
+	background-color: #ddd;
+	color: black;
 }

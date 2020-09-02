@@ -1,3 +1,4 @@
+<%@page import="beans.StartseiteBean"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -18,6 +19,7 @@
 		<!-- HEADER -->
 
 		<jsp:getProperty property="headerAsHtml" name="sb" />
+		<jsp:getProperty property="headerAsHtml2" name="sb" />
 
 
 
@@ -35,14 +37,14 @@
 
 		<table class="bilder">
 			<tr>
-				<td><img src="../img/startseiteImg/mann.jpeg"
-					title="Herren-Collection" /></td>
-				<td><img src="../img/startseiteImg/frau.jpg"
-					title="Damen-Collection" /></td>
+				<td><a href="../jsp/Herren.jsp"><img src="../img/startseiteImg/mann.jpeg"
+					title="Herren-Collection" /></a></td>
+				<td><a href="../jsp/Damen.jsp"><img src="../img/startseiteImg/frau.jpg"
+					title="Damen-Collection" /></a></td>
 			</tr>
 			<tr>
-				<td colspan="2"><img class="sale"
-					src="../img/startseiteImg/sale.jpg" title="Sale-Produkte" /></td>
+				<td colspan="2"><a href="../jsp/Sale.jsp"><img class="sale"
+					src="../img/startseiteImg/sale.jpg" title="Sale-Produkte" /></a></td>
 			</tr>
 			<tr>
 				<td colspan="2"><img class="ownlook"
@@ -65,5 +67,6 @@
 		<!-- FOOTER -->
 
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
+</form>
 </body>
 </html>
