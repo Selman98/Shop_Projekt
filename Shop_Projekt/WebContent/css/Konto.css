@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+body {
+	
+	text-align:center;
+}
+.a input[type="submit"]{
+
+
+	background-color:black;
+	font-weight: bold;
+	color:white;
+	width:30%;
+	font-size: 15px;
+}
+
+.b input[type="submit"]{
+
+	width:30%;
+	border-color: coral;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+img {
+	width: 100px;
+	height: 100px;
+
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body{
+	
+	
+	text-align:center;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+
+}
+input[type="submit"]{
+
+	background-color:black;
+	font-weight: bold;
+	color:white;
+	width:30%;
+	font-size: 15px;
+}

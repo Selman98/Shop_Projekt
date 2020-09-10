@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+table {
+	width: 70%;
+	height: 70%;
+}
+
+img {
+	width: 450px;
+	height: 500px;
+}
+
+td {
+	text-align: left;
+}
+
+td.beschreibung {
+	text-align: left;
+}
+
+input.buttons[type="submit"] {
+	width: 100%;
+	height: 40px;
+	border-color: black;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+select {
+	  width: 100%;
+	  height: 40px;
+	  background: url(fff-0-2.png) repeat;
+	  color: black;
+	  font-size: 15px;
+}
+
+summary {
+	font-weight: bold;
+}

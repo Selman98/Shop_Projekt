@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Teashirt | Herzlich Willkommen</title>
+<link rel="stylesheet" type="text/css" href="../css/Kontakt.css">
 <link rel="stylesheet" type="text/css" href="../css/Startseite.css">
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
@@ -37,9 +38,9 @@
 
 		<table class="bilder">
 			<tr>
-				<td><a href="../jsp/Herren.jsp"><img src="../img/startseiteImg/mann.jpeg"
+				<td><a href="../jsp/HerrenView.jsp"><img src="../img/startseiteImg/mann.jpeg"
 					title="Herren-Collection" /></a></td>
-				<td><a href="../jsp/Damen.jsp"><img src="../img/startseiteImg/frau.jpg"
+				<td><a href="../jsp/DamenView.jsp"><img src="../img/startseiteImg/frau.jpg"
 					title="Damen-Collection" /></a></td>
 			</tr>
 			<tr>
@@ -67,6 +68,7 @@
 		<!-- FOOTER -->
 
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
+	
 </form>
 </body>
 </html>

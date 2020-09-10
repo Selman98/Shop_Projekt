@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+input[type="submit"]{
+
+	width:30%;
+	border-color: coral;
+	background-color:coral;
+	font-weight: bold;
+	font-size: 15px;
+}

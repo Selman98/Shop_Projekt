@@ -27,7 +27,7 @@ public class StartseiteBean {
 		header2 += "<header>\n"
 				+ "					<div class=\"header-menu2\">\n"
 				+ " <input type=\"search\" id=\"suche\" placeholder=\"Suche...\">\n"
-				+ " <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.8.1/css/all.css\" /><button class=\"btnKonto\"><i class=\"fas fa-user-circle\"></i></button>"
+				+ " <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.8.1/css/all.css\"/><button formaction=\"../jsp/Konto.jsp\" class=\"btnKonto\"><i class=\"fas fa-user-circle\"></i></button>"
 				+ "<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.8.1/css/all.css\" /><button class=\"btnWarenkorb\"><i class=\"fas fa-shopping-cart\"></i></button>"
 				+ "								</div> </header>";
 
